@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px;
+
+}
+body{
+   background-color:  rgb(1, 1, 46);
+}
+.Nav{
+   
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(9, 9, 93, 0.971);
+    color: white;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 19px;
+    
+}
+.navigation ul li:hover{
+    cursor: pointer;
+    color: rgba(240, 182, 9, 0.918);
+    
+}
+.logo{
+   display: flex; 
+   width: 300px;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo_img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: url(/Image/logo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Section{
+   
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    background-color: rgb(1, 1, 46);
+}
+.sec{
+    height: 550px;
+    width: 600px;
+   
+
+}
+.about{
+    text-align: center;
+    padding: 100px 50px;
+    line-height: 50px;
+    font-size: 23px;
+    color: white;
+}
+img{
+    height: 500px;
+    width: 600px;
+}
+
+span{
+    font-size: 39px;
+    color: mediumorchid;
+}
+.Heading{
+    text-align: center;
+    background-color:  rgb(1, 1, 46);
+    color: white;
+    font-size: 49px;
+    margin-top: 20px;
+}
+.service {
+    gap: 30px;
+  
+}
+.circle{
+    background: url(/Image/1695490300588.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    height: 180px;
+width: 180px;
+border-radius: 50%;
+margin: 10px;
+}
+.card ul li{
+    margin: 10px 10px;
+    color: rgb(14, 232, 247);
+    text-align: center;
+    list-style: none;
+}
+.card{
+    border: 2px solid rgb(194, 31, 239);
+    border-radius: 10px;
+    height: 400px;
+    width: 200px;
+   
+}
+.card:hover{
+    box-shadow: 0px 0px 19px 20px rgba(85, 5, 91, 0.641);
+
+}
+.card h2{
+    align-items: center;
+    color: white;
+    margin: 9px 50px ;
+}
+
+/* .crd_1{
+    background: url(/Image/1695489970665.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crd_2{
+    background: url(/Image/1695489970665.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crd_3{
+    background: url(/Image/1695489970665.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crd_4{
+    background: url(/Image/1705129259991.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crd_5{
+    background: url(/Image/1695489970665.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+              /* Project Section Start */
+
+/* .Project-section{
+ background-color: greenyellow;
+} */
+.P-title{
+    position: relative;
+    display: inline;
+    left: 700px;
+    top: -25px;
+    font-size: 50px;
+    color: white
+    
+}
+.Project{
+   
+    display: flex;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.project-Title{
+  
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.P_card-1{
+    background: url(/Image/Digital\ clock.png);
+}
+.P_card-2{
+background: url(/Image/Atm\ Machine.png);
+}
+.P_card-3{
+ background: url(/Image/Pro_3.jpg);
+}
+.P_card-4{
+background: url(/Image/management\ 1.png);
+}
+.P_card-5{
+ background: url(/Image/portfolio.png);
+}
+ 
+ /* z index */
+ 
+.P_card{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:  260px;
+    width: 430px;
+    border-radius: 10px;
+}
+
+.P_card h1{
+    font-size: 60px;
+    font-style: italic;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: rgb(214, 120, 5);
+}
+
+.P_detail-1{
+    background: url(/Image/tech1.avif);
+    
+}
+.P_detail p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 40px;
+}
+.P_detail-2{
+    background: url(/Image/tech2.jpg);
+    
+}
+.P_detail-3{
+    background: url(/Image/tech3.avif);
+}
+.P_detail-4{
+    background: url(/Image/tech4.avif);
+}
+
+.P_detail-5{
+    background: url(/Image/tech5.avif);
+    
+}
+
+.P_detail h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;  
+   }
+
+.P_detail{
+    height:  260px;
+    width: 430px;
+    position:absolute;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 18px 20px rgb(14, 14, 63);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+   z-index: 1;
+}
+    /* Project Section End */
+
+    .Contact-Section{
+        height: 754px;
+        padding: 20px;
+        background: url(/Image/tech6.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        width: 37%;
+        margin: 80px 500px;
+        padding: 41px 56px;
+        border-radius: 37px;
+        border: 2px solid white;
+      }
+      
+      .form-group input{
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+        padding: 12px 6px;
+        width: 408px;
+        background: linear-gradient(rgb(223, 191, 234),rgb(236, 139, 232),rgb(158, 100, 244));
+      color: block;
+      font-weight: bolder;
+      }
+      .container h1{
+          text-align: center;
+          font-size: 30px;
+          font-style: italic;
+          color: bisque;
+      }
+      .container .btn{
+          display: block;
+          align-items: center;
+          width: 408px;
+        margin: 27px auto;
+      }
+      .btn{
+        margin: 0px 10px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 10px;
+       font-size: 18px; 
+       margin-top: 10px;
+       cursor: pointer;
+    
+    }
+  
+    .Contact-Section .Heading{
+        width: 0px;
+        margin-left: 700px;
+        
+    }
+
+   textarea{
+    margin-left: 10px;
+    text-align: center;
+    background: linear-gradient(rgb(223, 191, 234),rgb(236, 139, 232),rgb(158, 100, 244));
+    color: block;
+    font-weight: bolder;
+ 
+}
+
+
